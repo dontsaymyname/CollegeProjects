@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/questionario_nav"
+    app:startDestination="@id/questao1Fragment">
+
+    <fragment
+        android:id="@+id/questao1Fragment"
+        android:name="com.example.tp3fundamentos.Questao1Fragment"
+        android:label="fragment_questao1"
+        tools:layout="@layout/fragment_questao1" >
+        <action
+            android:id="@+id/action_questao1Fragment_to_questao2Fragment"
+            app:destination="@id/questao2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao2Fragment"
+        android:name="com.example.tp3fundamentos.Questao2Fragment"
+        android:label="fragment_questao2"
+        tools:layout="@layout/fragment_questao2" >
+        <action
+            android:id="@+id/action_questao2Fragment_to_questao3Fragment"
+            app:destination="@id/questao3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao3Fragment"
+        android:name="com.example.tp3fundamentos.Questao3Fragment"
+        android:label="fragment_questao3"
+        tools:layout="@layout/fragment_questao3" >
+        <action
+            android:id="@+id/action_questao3Fragment_to_questao4Fragment"
+            app:destination="@id/questao4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao4Fragment"
+        android:name="com.example.tp3fundamentos.Questao4Fragment"
+        android:label="fragment_questao4"
+        tools:layout="@layout/fragment_questao4" >
+        <action
+            android:id="@+id/action_questao4Fragment_to_questao5Fragment"
+            app:destination="@id/questao5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao5Fragment"
+        android:name="com.example.tp3fundamentos.Questao5Fragment"
+        android:label="fragment_questao5"
+        tools:layout="@layout/fragment_questao5" >
+        <action
+            android:id="@+id/action_questao5Fragment_to_questao6Fragment"
+            app:destination="@id/questao6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao6Fragment"
+        android:name="com.example.tp3fundamentos.Questao6Fragment"
+        android:label="fragment_questao6"
+        tools:layout="@layout/fragment_questao6" >
+        <action
+            android:id="@+id/action_questao6Fragment_to_questao7Fragment"
+            app:destination="@id/questao7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao7Fragment"
+        android:name="com.example.tp3fundamentos.Questao7Fragment"
+        android:label="fragment_questao7"
+        tools:layout="@layout/fragment_questao7" >
+        <action
+            android:id="@+id/action_questao7Fragment_to_questao8Fragment"
+            app:destination="@id/questao8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao8Fragment"
+        android:name="com.example.tp3fundamentos.Questao8Fragment"
+        android:label="fragment_questao8"
+        tools:layout="@layout/fragment_questao8" >
+        <action
+            android:id="@+id/action_questao8Fragment_to_questao9Fragment"
+            app:destination="@id/questao9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao9Fragment"
+        android:name="com.example.tp3fundamentos.Questao9Fragment"
+        android:label="fragment_questao9"
+        tools:layout="@layout/fragment_questao9" />
+</navigation>
